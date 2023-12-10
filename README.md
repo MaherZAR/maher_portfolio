@@ -2,14 +2,14 @@
 ## Phase de développement
 1. Clonez le repository :
    ```bash
-   git clone https://github.com/othmenbelgacem/othmen_portfolio.git
-   cd othmen_portfolio
+   git clone https://github.com/MaherZAR/maher_portfolio.git
+   cd maher_portfolio
 
 2. Construction de l'Image Docker 
 Construisez l'image Docker en exécutant la commande suivante à la racine du projet :
-Docker build -t othmen_portfolio .
+Docker build -t maher_portfolio .
 3. Lancement du Conteneur Docker
-docker run -p 3000:3000 cvothmen:0.0.1
+docker run -p 3000:3000 cvmaher:0.0.1
 
 4. Développement dans le Conteneur
 Vous êtes maintenant à l'intérieur du conteneur. Effectuez vos tâches de développement normalement.
