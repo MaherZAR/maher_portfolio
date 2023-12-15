@@ -5,6 +5,8 @@
    git clone https://github.com/MaherZAR/maher_portfolio.git
    cd maher_portfolio
 
+   Ou unziper le projet déposé
+
 2. Construction de l'Image Docker 
 Construisez l'image Docker en exécutant la commande suivante à la racine du projet :
 Docker build -t maher_portfolio .
