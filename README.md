@@ -3,7 +3,7 @@
 1. Clonez le repository :
     git clone https://github.com/MaherZAR/maher_portfolio.git
     cd maher_portfolio
-    ou unziper le dossier déposé
+    ou dézipper le dossier déposé
 
 3. Construction de l'Image Docker : docker build -t maher_portfolio .
 4. Lancement du Conteneur Docker : docker run -p 3000:3000 maher_portfolio
