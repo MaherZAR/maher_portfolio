@@ -1,16 +1,16 @@
 # Projet CV avec Next.js et Docker
 ## Phase de développement
 1. Clonez le repository :  git clone https://github.com/MaherZAR/maher_portfolio.git
-    cd maher_portfolio
-    ou dézipper le dossier déposé
+           cd maher_portfolio
+           ou dézipper le dossier déposé
 
-2. Construction de l'Image Docker : docker build -t maher_portfolio .
-3. Lancement du Conteneur Docker : docker run -p 3000:3000 maher_portfolio
+3. Construction de l'Image Docker : docker build -t maher_portfolio .
+4. Lancement du Conteneur Docker : docker run -p 3000:3000 maher_portfolio
 
-4. Développement dans le Conteneur : Ouvrir [http://localhost:3000](http://localhost:3000) avec votre navigateur pour voir le résultat.
+5. Développement dans le Conteneur : Ouvrir [http://localhost:3000](http://localhost:3000) avec votre navigateur pour voir le résultat.
 Vous pouvez commencer à éditer la page en modifiant `pages/index.js`. La page se met à jour automatiquement au fur et à mesure que vous modifiez le fichier.
-5. Arrêt du Conteneur : Lorsque vous avez terminé, vous pouvez quitter le conteneur en tapant exit. Le conteneur sera automatiquement supprimé.
-6. Autres Commandes Utiles
+6. Arrêt du Conteneur : Lorsque vous avez terminé, vous pouvez quitter le conteneur en tapant exit. Le conteneur sera automatiquement supprimé.
+7. Autres Commandes Utiles
     -Pour lister tous les conteneurs en cours d'exécution : docker ps
     -Pour lister tous les conteneurs (y compris ceux arrêtés) : docker ps -a
     -Pour arrêter un conteneur en cours d'exécution : docker stop <ID_DU_CONTENEUR>
