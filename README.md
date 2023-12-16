@@ -1,10 +1,8 @@
 # Projet CV avec Next.js et Docker
 ## Phase de développement
-1. Clonez le repository :
-   ```bash
-   git clone https://github.com/MaherZAR/maher_portfolio.git
-   cd maher_portfolio
-    ou unziper le dossier déposé
+1. Clonez le repository :  git clone https://github.com/MaherZAR/maher_portfolio.git
+    cd maher_portfolio
+    ou dézipper le dossier déposé
 
 2. Construction de l'Image Docker : docker build -t maher_portfolio .
 3. Lancement du Conteneur Docker : docker run -p 3000:3000 maher_portfolio
